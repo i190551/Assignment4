@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Women">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="22.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/WhatsApp%20Image%202022-05-07%20at%205.41.07%20AM.jpeg" />
+               </image>
+            </ImageView>
+            <Text layoutX="67.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Women's New Arrivals">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Line endX="1119.0" layoutX="145.0" layoutY="199.0" startX="-131.9000244140625" />
+            <ImageView fitHeight="185.0" fitWidth="208.0" layoutX="119.0" layoutY="276.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/women(1).png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="195.0" fitWidth="180.0" layoutX="377.0" layoutY="276.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/women(2).png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="203.0" fitWidth="199.0" layoutX="654.0" layoutY="257.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/women(3).png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="185.0" fitWidth="208.0" layoutX="923.0" layoutY="276.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+               <Image url="@../../../../Downloads/women(4).png" />
+               </image>
+            </ImageView>
+            <Label layoutX="142.0" layoutY="486.0" text="Women Accessories">
+               <font>
+                  <Font name="Bell MT Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="142.0" layoutY="511.0" text="RS.745.00">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Button layoutX="123.0" layoutY="535.0" mnemonicParsing="false" onAction="#buyAcc" prefHeight="26.0" prefWidth="169.0" style="-fx-background-color: #D281BC;" text="Buy Now" />
+            <Button layoutX="123.0" layoutY="572.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="169.0" style="-fx-background-color: #D281BC;" text="Add to cart" />
+            <ImageView fitHeight="56.0" fitWidth="52.0" layoutX="30.0" layoutY="398.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/pngwing.com%20(13).png" />
+               </image>
+            </ImageView>
+            <Label layoutX="963.0" layoutY="486.0" text="Red Skirt">
+               <font>
+                  <Font name="Bell MT Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="695.0" layoutY="486.0" text="Black Skirt">
+               <font>
+                  <Font name="Bell MT Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="403.0" layoutY="486.0" text="Wedding Mxi Pink">
+               <font>
+                  <Font name="Bell MT Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="963.0" layoutY="511.0" text="RS.15000.00">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="695.0" layoutY="511.0" text="RS.2050.00">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="402.0" layoutY="511.0" text="RS.500.00">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Button layoutX="941.0" layoutY="535.0" mnemonicParsing="false" onAction="#buyredskirt" prefHeight="26.0" prefWidth="169.0" style="-fx-background-color: #D281BC;" text="Buy Now" />
+            <Button layoutX="668.0" layoutY="535.0" mnemonicParsing="false" onAction="#buyskirt" prefHeight="26.0" prefWidth="169.0" style="-fx-background-color: #D281BC;" text="Buy Now" />
+            <Button layoutX="382.0" layoutY="535.0" mnemonicParsing="false" onAction="#buymaxi" prefHeight="26.0" prefWidth="169.0" style="-fx-background-color: #D281BC;" text="Buy Now" />
+            <Button layoutX="941.0" layoutY="572.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="169.0" style="-fx-background-color: #D281BC;" text="Add to cart" />
+            <Button layoutX="669.0" layoutY="572.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="169.0" style="-fx-background-color: #D281BC;" text="Add to cart" />
+            <Button layoutX="382.0" layoutY="572.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="169.0" style="-fx-background-color: #D281BC;" text="Add to cart" />
+            <ImageView fitHeight="56.0" fitWidth="52.0" layoutX="1173.0" layoutY="398.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/pngwing.com%20(12).png" />
+               </image>
+            </ImageView>
+            <Button layoutX="340.0" layoutY="677.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="194.0" style="-fx-background-color: fffff;" text="Back" textFill="#f4f2f2">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="women_back" layoutY="677.0" mnemonicParsing="false" onAction="#back_women" prefHeight="74.0" prefWidth="102.0" style="-fx-background-color: #d291bc;" text="Back">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="22.0" fitWidth="28.0" layoutX="11.0" layoutY="703.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/pngwing.com%20(13).png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="165.0" fitWidth="167.0" layoutX="1108.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/womenn.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

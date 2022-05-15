@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Kids">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="22.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/WhatsApp%20Image%202022-05-07%20at%205.41.07%20AM.jpeg" />
+               </image>
+            </ImageView>
+            <Text layoutX="67.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kid's New Arrivals">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Line endX="1119.0" layoutX="145.0" layoutY="199.0" startX="-131.9000244140625" />
+            <ImageView fitHeight="185.0" fitWidth="208.0" layoutX="119.0" layoutY="276.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/pngwing.com%20(14).png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="195.0" fitWidth="180.0" layoutX="402.0" layoutY="271.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/pngwing.com%20(15).png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="185.0" fitWidth="208.0" layoutX="633.0" layoutY="276.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/pngwing.com%20(16).png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="185.0" fitWidth="208.0" layoutX="923.0" layoutY="276.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/pngwing.com%20(17).png" />
+               </image>
+            </ImageView>
+            <Label layoutX="142.0" layoutY="486.0" text="Frock for Baby Girl">
+               <font>
+                  <Font name="Bell MT Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="142.0" layoutY="511.0" text="RS.745.00">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Button layoutX="123.0" layoutY="535.0" mnemonicParsing="false" onAction="#buyfrock" prefHeight="26.0" prefWidth="169.0" style="-fx-background-color: #D281BC;" text="Buy Now" />
+            <Button layoutX="123.0" layoutY="572.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="169.0" style="-fx-background-color: #D281BC;" text="Add to cart" />
+            <ImageView fitHeight="56.0" fitWidth="52.0" layoutX="30.0" layoutY="398.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/pngwing.com%20(13).png" />
+               </image>
+            </ImageView>
+            <Label layoutX="963.0" layoutY="486.0" text="Sweater for boys">
+               <font>
+                  <Font name="Bell MT Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="700.0" layoutY="486.0" text="T-Shirt">
+               <font>
+                  <Font name="Bell MT Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="403.0" layoutY="486.0" text="Kurta for Baby Boy">
+               <font>
+                  <Font name="Bell MT Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="963.0" layoutY="511.0" text="RS.1500.00">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="697.0" layoutY="511.0" text="RS.250.00">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="402.0" layoutY="511.0" text="RS.500.00">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Button layoutX="941.0" layoutY="535.0" mnemonicParsing="false" onAction="#buysweater" prefHeight="26.0" prefWidth="169.0" style="-fx-background-color: #D281BC;" text="Buy Now" />
+            <Button layoutX="641.0" layoutY="535.0" mnemonicParsing="false" onAction="#butshirt" prefHeight="26.0" prefWidth="169.0" style="-fx-background-color: #D281BC;" text="Buy Now" />
+            <Button layoutX="382.0" layoutY="535.0" mnemonicParsing="false" onAction="#buykurta" prefHeight="26.0" prefWidth="169.0" style="-fx-background-color: #D281BC;" text="Buy Now" />
+            <Button layoutX="941.0" layoutY="572.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="169.0" style="-fx-background-color: #D281BC;" text="Add to cart" />
+            <Button layoutX="641.0" layoutY="572.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="169.0" style="-fx-background-color: #D281BC;" text="Add to cart" />
+            <Button layoutX="382.0" layoutY="572.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="169.0" style="-fx-background-color: #D281BC;" text="Add to cart" />
+            <ImageView fitHeight="56.0" fitWidth="52.0" layoutX="1195.0" layoutY="398.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/pngwing.com%20(12).png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="173.0" fitWidth="227.0" layoutX="1087.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/kidss.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="kids_back" layoutY="694.0" mnemonicParsing="false" onAction="#open_maincreen_from_kids" prefHeight="55.0" prefWidth="90.0" style="-fx-background-color: #d281bc;" text="Back">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="25.0" fitWidth="15.0" layoutX="15.0" layoutY="712.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/pngwing.com%20(13).png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
